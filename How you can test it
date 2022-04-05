@@ -1,7 +1,7 @@
-<b>Server<b><br>
-The Python code uses the following extra modules:<br>
-pymysql for mysql databases<br>
-openpyxl for excel export<br>
-bcrypt to hash passwords<br>
-You can test this program with a supplied test database (testDatabase.db). It is filled with a few fictional workers and some real shifts.<br>
-For this you have to uncomment line 20 (self.dbModule = 'sqlite3' #local database) and comment line 21 (self.dbModule = 'pymysql' #sql server) out.<br>
+Server
+The Python code uses the following extra modules:
+- pymysql for mysql databases
+- openpyxl for excel export
+- bcrypt to hash passwords
+You can test this program with a supplied test database (testDatabase.db). It is filled with a few fictional workers and some real shifts.
+For this you have to uncomment line 20 (self.dbModule = 'sqlite3' #local database) and comment line 21 (self.dbModule = 'pymysql' #sql server) out.
