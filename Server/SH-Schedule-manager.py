@@ -450,7 +450,11 @@ class MainApplication(tk.Frame):
             self.isActiveCheckbutton.select()
         else:
             self.isActiveCheckbutton.deselect()
-        self.passwordVariable.set('')
+        self.cursor.execute('SELECT password FROM workers WHERE workerName = ' + self.ph, (workerName, ))
+        if self.cursor.fetchone()[0] != None:
+            self.passwordVariable.set('*************')
+        else:
+            self.passwordVariable.set('')
 
     def addWorker(self):
         '''
