@@ -1,0 +1,88 @@
+{
+"hu" :
+	{
+	"Year" : "Év",
+	"Week" : "Hét",
+	"Exit" : "Kilépés",
+	"Update" : "Frissít",
+	"Settings" : "Beállítások",
+	"Workers" : "Dolgozók",
+	"Shifts" : "Műszakok",
+	"Company requests" : "Munkarend",
+	"Worker requests" : "Ráérések",
+	"Schedule" : "Beosztás",
+	"Help" : "Súgó",
+	
+	"Language" : "Nyelv",
+	"Hungarian" : "Magyar",
+	"English" : "Angol",
+	"Save settings" : "Beállítások mentése",
+	
+	"Name" : "Név",
+	"Add worker" : "Dolgozó felvétele",
+	"Delete worker" : "Dolgozó törlése",
+	"Data" : "Adatok",
+	"Save data" : "Adatok mentése",
+	"Date of birth" : "Születési idő",
+	"Phone number" : "Telefonszám",
+	"Membership validity" : "Tagság érvényessége",
+	"Active" : "Aktív",
+	"Password" : "Jelszó",
+	
+	"Save shifts" : "Műszakok mentése",
+	"Name of new shift" : "Új műszak neve",
+	"Add new shift" : "Új műszak hozzáadása",
+	
+	"Save company requests" : "Munkarend mentése",
+	
+	"Save worker requests" : "Ráérést lead",
+	
+	"Create schedule" : "Beosztás elkészítése",
+	"Fill schedule" : "Beosztás kiegészítése",
+	"Algorithm" : "Algoritmus",
+	"Export to Excel" : "Export Excel fájlba"
+	},
+"en" :
+	{
+	"Year" : "Year",
+	"Week" : "Week",
+	"Exit" : "Exit",
+	"Update" : "Update",
+	"Settings" : "Settings",
+	"Workers" : "Workers",
+	"Shifts" : "Shifts",
+	"Company requests" : "Company requests",
+	"Worker requests" : "Worker requests",
+	"Schedule" : "Schedule",
+	"Help" : "Help",
+	
+	"Language" : "Language",
+	"Hungarian" : "Hungarian",
+	"English" : "English",
+	"Save settings" : "Save settings",
+	
+	"Name" : "Név",
+	"Add worker" : "Add worker",
+	"Delete worker" : "Delete worker",
+	"Data" : "Data",
+	"Save data" : "Save data",
+	"Date of birth" : "Date of birth",
+	"Phone number" : "Phone number",
+	"Membership validity" : "Membership validity",
+	"Active" : "Active",
+	"Password" : "Password",
+	
+	"Save shifts" : "Save shifts",
+	"Name of new shift" : "Name of new shift",
+	"Add new shift" : "Add new shift",
+	
+	"Save company requests" : "Save company requests",
+	
+	"Save worker requests" : "Save worker requests",
+	
+	"Create schedule" : "Create schedule",
+	"Fill schedule" : "Fill schedule",
+	"Algorithm" : "Algorithm",
+	"Export to Excel" : "Export to Excel"
+	}
+}
