@@ -3,5 +3,10 @@ The Python code uses the following extra modules:
 - pymysql for mysql databases
 - openpyxl for excel export
 - bcrypt to hash passwords
-You can test this program with a supplied test database (testDatabase.db). It is filled with a few fictional workers and some real shifts.
-For this you have to uncomment line 20 (self.dbModule = 'sqlite3' #local database) and comment line 21 (self.dbModule = 'pymysql' #sql server) out.
+You can test this program with a supplied test database (testDatabase.db). Normally it should use a MySQL database on a web server. The test database is filled with a few fictional workers, some real shifts and worker requests for year 2022 week 15.
+To use this database you have to uncomment line 20 (self.dbModule = 'sqlite3' #local database) and comment line 21 (self.dbModule = 'pymysql' #sql server) out.
+
+Client
+As far as I know, you have to set up a webserver and you have to use some MySQL managing software.
+How I used it:
+With WampServer I set up a web server and I recreated the structure of testDatabase.db with the samen name in phpMyAdmin (the server and the client programs both use the hard coded name testDatabase.db). Then in a browser I can connect to SH-Schedule-manager.php throught the address localhost/.../SH-Schedule-manager.php

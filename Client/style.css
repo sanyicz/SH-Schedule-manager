@@ -1,0 +1,40 @@
+#mainContent {
+	float: left;
+}
+
+/*input[type=checkbox] {
+    transform: scale(1.5);
+}*/
+
+body {
+	background: linear-gradient(to top right, lightblue, white) no-repeat center center fixed; 
+}
+
+form label {
+	display: inline-block;
+	margin: 5px;
+}
+
+#showPasswordCB, #submitForm, #reset {
+	margin: 10px 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+p {
+	display: inline;
+}
+
+#workerName {
+	width: 130px;
+}
+
+#year, #week {
+	width: 50px;
+}
