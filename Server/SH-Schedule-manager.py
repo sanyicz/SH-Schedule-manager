@@ -32,7 +32,7 @@ class MainApplication(tk.Frame):
         
         print('Initialization...')
         self.loadDatabase('testDatabase.db') #if askopenfilename used, some error occurs
-        self.updateDays()
+        self.updateDays(self.language.get())
         self.updateShifts()
         self.updateWorkers()
         print('Program ready')
@@ -283,7 +283,7 @@ class MainApplication(tk.Frame):
         self.cursor = self.connection.cursor()
         print('Database: "' + self.dataBaseFilename + '" loaded')
 
-    def updateDays(self):
+    def updateDays(self, language):
         '''
         lists the days from the database
         '''
